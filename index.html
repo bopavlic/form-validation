@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href=".//resources/style.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/636e50ca67.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Starting Header -->
+      <div class="header">
+        <h2>Create Account</h2>
+      </div>
+      <!-- Ending Header -->
+      <!-- Starting form -->
+      <!-- First-->
+      <form class="form" id="form">
+        <div class="form-control">
+          <label>Username: </label>
+          <input type="text" placeholder="pavlik17" id="username" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <!-- 2nd-->
+        <div class="form-control">
+          <label>Email: </label>
+          <input type="email" placeholder="name@gmail.com" id="email" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <!-- 3rd-->
+        <div class="form-control">
+          <label>Password: </label>
+          <input type="password" placeholder="password123" id="password" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <!-- 4th-->
+        <div class="form-control checking">
+          <label>Password check: </label>
+          <input type="password" placeholder="repeat password" id="password2" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+      <!-- Ending form -->
+      <!-- Ending Container -->
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
